@@ -1,0 +1,261 @@
+
+
+
+.container {
+    width: 100%;
+    background-color: white
+}
+
+.navbar {
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    height: 50px;
+    align-items: center;
+}
+.navbar h1 {
+    font-family: cursive;
+    color: white;
+    font-weight: 100;
+    margin-left: 30px;
+}
+.nav-links {
+    width: 400px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: cursive;
+    padding-right: 20px;
+}
+li, li a{
+    list-style-type: none;
+    text-decoration: none;
+    color: white;
+}
+.btn {
+    color:white;
+    background-color: rgb(28, 180, 240);
+    box-shadow: 5px 5px 5px black;
+    border: 2px solid black;
+    font-family: 'Roboto', sans-serif;
+    padding: 10px;
+}
+
+.main-content {
+    display: flex;
+    width: auto;
+    height: auto;
+}
+
+
+.col1 {
+    background-color:grey;
+    height: 550px;
+    flex: 3;
+}
+
+.usercard {
+    height: 57%;
+    width: auto;
+    margin: 5%;
+    background-color: white;
+    border-radius: 5px;
+}
+.cardhead {
+    height: 90px;
+    width: auto;
+    background-color: rgb(23, 194, 171);
+}
+.location {
+    display: flex;
+    position: relative;
+    top: 25px;
+}
+
+.usericon-1, .usericon-2 {
+    height: 20px;
+}
+
+.usericon-1{
+    position: relative;
+    top: 15px;
+}
+.cardname{
+    position: relative;
+    top:50px
+}
+
+.profimg {
+    height: 80px;
+    position: relative;
+    top: 80px;
+    border: 4px solid grey;
+    border-radius: 50%;
+}
+
+.cardcontent {
+    position: relative;
+    bottom: 150px;
+    margin-left: 20px;
+    font-weight: 600;
+}
+
+.cardcontent a {
+    position: relative;
+    bottom: 5px;
+}
+
+.edu {
+    height: 30%;
+    width: auto;
+    margin: 5%;
+    background-color: white;
+    border-radius: 5px;
+}
+.eduheader {
+    height: 30%;
+    width: auto;
+    background-color: black; 
+    color: white;
+    padding-left: 20px;
+    font-size: 22px;
+    align-items: center;
+    display: flex;
+}
+.eduinfo {
+    position:relative;
+    bottom: 10px;
+    margin-left: 20px;
+    font-weight: 900;
+}
+.edudates {
+    color: rgb(88, 88, 88);
+}
+
+.col2 {
+    background-color: grey;
+    flex: 2;
+}
+
+.conreqs {
+    height: 35%;
+    width: auto;
+    background-color: white;
+    margin: 5%;
+    border-radius: 5px;
+}
+.conreqheader{
+    display: flex;
+    background-color: black;
+    height: 50px;
+    font-size: 9pt;
+    align-items: center;
+    justify-content: space-evenly;
+    color: white;
+}
+.requestnumber{
+    border: 1px solid black;
+    border-radius: 50%;
+    width: 30px;
+    background-color:red;
+    text-align: center;
+}
+.toddphil{
+    display: flex;
+    font-size: 15pt;
+    font-weight: 600;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.toddphil img{
+    height: 50px;
+    border-radius: 50%;
+}
+
+
+
+
+
+.cons {
+    height: 55%;
+    width: auto;
+    background-color: white;
+    margin: 5%;
+    border-radius: 5px;
+    border: 1px solid grey;
+}
+.conheader {
+    display: flex;
+    background-color: black;
+    height: 50px;
+    font-size: 9pt;
+    align-items: center;
+    justify-content: space-evenly;
+    color: white;
+}
+.connumber {
+    border: 1px solid black;
+    border-radius: 50%;
+    width: 70px;
+    background-color:red;
+    text-align: center;
+}
+.adrien {
+    display: flex;
+    font-size: 12pt;
+    font-weight: 600;
+    align-items: center;
+    justify-content: flex-start;
+    margin: 0px 20px;
+}
+.adrien img {
+    height: 40px;
+    border-radius: 50%;
+    margin: 0px 10px;
+}
+.anne {
+    display: flex;
+    font-size: 12pt;
+    font-weight: 600;
+    align-items: center;
+    justify-content: flex-start;
+    margin: 0px 20px;
+}
+.anne img {
+    height: 40px;
+    border-radius: 50%;
+    margin: 0px 10px;
+}
+.alayne {
+    display: flex;
+    font-size: 12pt;
+    font-weight: 600;
+    align-items: center;
+    justify-content: flex-start;
+    margin: 0px 20px;
+}
+.alayne img {
+    height: 40px;
+    border-radius: 50%;
+    margin: 0px 10px;
+}
+.arry {
+    display: flex;
+    font-size: 12pt;
+    font-weight: 600;
+    align-items: center;
+    justify-content: flex-start;
+    margin: 0px 20px;
+}
+.arry img {
+    height: 40px;
+    border-radius: 50%;
+    margin: 0px 10px;
+}
+
+.footer {
+    font-weight: 800px;
+    padding: 20px;
+    border: 1px solid grey
+}
+
