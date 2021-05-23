@@ -24,17 +24,17 @@
                     <h1 class="cardhead"></h1>
                     <div class="cardcontent">
                         <img class="profimg" src="icons/user-circle.png" alt="profile picture">
-                        <h1 class="cardname">Jane Doe</h1>
+                        <h1 id="jane" class="cardname">Jane Doe</h1>
                         <div class="location">
                             <img class="usericon-1" src="icons/map-marker.png" alt="map marker">
                             <h3 class=""> Seattle</h3>
                         </div>
                         <p class="cardinfo">Developer | Engineer | Problem Solver<br>Master of shadows and the Internet!</p>
                         <img class="usericon-2"src="icons/gear.png" alt="gear">
-                        <a href="#">edit profile</a>
+                        <a href="#" onclick="nameChange()">edit profile</a>
                     </div>
                 </div>
-        
+
                 <div class="edu">
                     <h1 class="eduheader">Education</h1>
                     <div class="eduinfo">
@@ -47,27 +47,26 @@
             <div class="col2">
                 <div class="conreqs">
                     <div class="conreqheader">
-                        <h1 class="requestnumber">2  </h1>
+                        <h1 id="requestnumber">2  </h1>
                         <h1 class="conhead">Connection Requests</h1>
                     </div>
-                    <div class="toddphil">
+                    <div id="todd">
                         <img src="images/todd-s.jpg" alt="todd">
                         <p>Todd E</p>
-                        <img src="icons/accept-circle.png" alt="accept">
-                        <img src="icons/close-circle.png" alt="close">
+                        <img onclick="byeTodd(), addTodd(), byeReq()" src="icons/accept-circle.png" alt="accept">
+                        <img onclick="byeTodd(), byeReq()"src="icons/close-circle.png" alt="close">
                     </div>
-                    <div class="toddphil">
+                    <div id="phil">
                         <img src="images/phil-s.jpg" alt="phil">
                         <p>Phil K</p>
-                        <img src="icons/accept-circle.png" alt="accept">
-                        <img src="icons/close-circle.png" alt="close">
+                        <img onclick="byePhil(), byeReq(), addPhil()"src="icons/accept-circle.png" alt="accept">
+                        <img onclick="byePhil(), byeReq()"src="icons/close-circle.png" alt="close">
                     </div>
                 </div>
-
-
+                
                 <div class="cons">
                     <div class="conheader">
-                        <h1 class="connumber">500+</h1>
+                        <h1 id="connumber">500+</h1>
                         <h1 class= connhead>Your Connections</h1>
                     </div>
                     <div class="adrien">
@@ -93,6 +92,7 @@
             </div>
         </div>
     </div>
-        
+
+    <script src="script.js"></script>
 </body>
 </html>
